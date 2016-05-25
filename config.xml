@@ -2,8 +2,8 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.jaymartmedia.webfg"
-        versionCode = "14" 
-        version     = "1.1.4" >
+        versionCode = "15" 
+        version     = "1.1.5" >
         
     <name>WebFG</name>
     
@@ -17,5 +17,5 @@
     <icon src="icon.png" />
 
     <plugin name="cordova-plugin-whitelist" />
-    <allow-navigation href="*" />
+    <allow-navigation href="jaymartmedia.com" />
     </widget>
