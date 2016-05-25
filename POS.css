@@ -1,0 +1,119 @@
+#POS{
+	color:white;
+	
+	height:100%;
+	text-align: center;
+	width:100%;
+}
+#daysSpacer{
+	height:4%;
+	
+
+	width: 100%;
+}
+#days, #nights{
+	height:7.5%;
+}
+#addDays, #addNights{
+	height:10%;
+	width: 100%;
+}
+#nightsSpacer{
+	height:4%;
+	
+
+	width:100%;
+}
+.floatButton{
+	border:1px solid white;
+	height:100%;
+	margin-left:15%;
+	
+	text-align: center;
+	width:70%;
+}
+#addFri, #addSat, #addSun{
+	float:left;
+	height:100%;
+	width: 33.33%;
+}
+#addFriNight{
+	float:left;
+	height:100%;
+	margin-left:15%;
+	width:33.33%;
+}
+#addSatNight{
+	float:right;
+	height:100%;
+	margin-right:15%;
+	width:33.33%;
+}
+#amountSpacer{
+	height:4%;
+		
+	width:100%;
+}
+#addAmount{
+	clear:both;
+	
+
+
+	width:100%;
+}
+#addAmountMinus, #addAmountNumber, #addAmountPlus{
+	float:left;
+	height:100%;
+	margin-left: 5%;
+	width:15%;
+}
+#addAmountMinus{
+	background: red;
+	margin-left: 20%;
+}
+#addAmountPlus{
+	background: green;
+}
+#addNote{
+	border:1px solid white;
+	height:15%;
+	
+	margin-left:2%;
+	overflow-y:auto;
+	width:96%;
+}
+#addNoteText{
+	height:92%;
+	width:100%;
+}
+#addNoteText textarea{
+	height:98%;
+	text-align: left;
+	width:98%;
+}
+#totalDue{
+	
+	
+}
+#addButtonWrapper{
+	bottom:0px;
+	height:13%;
+	position: absolute;
+	width:100%;
+}
+#addCancel{
+	background: red;
+	border:1px solid white;
+	box-sizing:border-box;
+	float:left;
+	height:100%;
+	width:50%;
+}
+#addSubmit{
+	background: green;
+	border:1px solid white;
+	box-sizing:border-box;
+	float:left;
+	height:100%;
+	width:50%;
+}

@@ -1,0 +1,61 @@
+#messagesCont{
+    height:100vh;
+    position:absolute;
+    background:black;
+    width:100vw;
+    z-index:10;
+}
+#messageLog{
+    height:65vh;
+    overflow-y:scroll;
+    width:100%
+}
+#messageWrite{
+    bottom:0px;
+    height:35vh;
+    position:absolute;
+    width:100vw;
+}
+#messageTextWrapper{
+    height:24vh;
+    width:100%;
+}
+#messageTextWrapper textarea{
+    height:100%;
+    margin-left:1%;
+    width:97%;
+}
+#messageSend{
+    background:green;
+    color:white;
+    font-size:7vh;
+    height:8vh;
+    margin-left:15vw;
+    margin-top:2vh;
+    margin-bottom:1vh;
+    text-align:center;
+    width:70vw;
+}
+.message{
+	background: black;
+    box-sizing:border-box;
+    border:3px solid white;
+    border-radius:10px;
+    color:white;
+    margin:2px;
+    padding:10px;
+}
+.messageName{
+    display:inline;
+    padding-left:10%;
+}
+.messageDate{
+    display:inline;
+    float:right;
+    padding-right:10%;
+}
+.messageText{
+    border-top:1px solid white;
+    margin-top:5px;
+    padding-top:5px;
+}

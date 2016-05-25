@@ -1,0 +1,78 @@
+#header{
+	background:red;
+	
+	
+}
+#headerWrapper{
+	width:75%;
+	
+	margin-left:12.5%;
+	
+	position: absolute;
+}
+#headerWrapper button{
+	width:25%;
+}
+#searchText{
+	width:50%;
+}
+#scroll{
+	
+	overflow-y:auto;
+	
+	position:absolute;
+	
+	
+}
+.item{
+	border-bottom:1px solid white;
+	color:white;
+	/*font-size: 4.5vw;*/
+	padding-bottom:10px;
+	margin-top:10px;
+	overflow: hidden;
+	text-align: center;
+}
+.item .left{
+	float:left;
+	/*margin-top: .2vh;
+	margin-bottom: .2vh;*/
+	width:60%;
+}
+.item .left .top .name{
+	float:left;
+	width: 70%
+}
+.item .left .top .days{
+	float:right;
+	width:30%;
+}
+.item .left .bottom{
+	clear: both;
+}
+.item .left .bottom .cat{
+	float: left;
+	width: 65%;
+}
+.item .left .bottom .rvcamp{
+	float:right;
+	width: 35%;
+}
+
+.item .right{
+	float:right;
+	/*margin-top: .2vh;
+	margin-bottom: .2vh;*/
+	width:40%;
+}
+.item .right .left{
+	width:50%;
+}
+.item .right .left .top{
+	border-bottom: 1px solid white;
+	margin:auto;
+	width:40%;
+}
+.item .right .right{
+	width:50%;
+}

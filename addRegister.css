@@ -1,0 +1,145 @@
+#addRegister{
+	color:white;
+	
+	height:100%;
+	text-align: center;
+	width:100%;
+}
+#addNameWrapper{
+	height:9%;
+	
+	width:100%;
+}
+#addFNameSpacer, #addLNameSpacer{
+	float:left;
+	height:40%;
+	width:50%;
+}
+#addFNameText, #addLNameText{
+	height:50%;
+	margin-left:5%;
+	margin-right:5%;
+	width:35%;
+}
+#addCatWrapper{
+	height:7%;
+	width:100%;
+}
+#addCatSpacer{
+	float:left;
+	height:100%;
+	text-align: right;
+	width:50%;
+}
+#addCat{
+	float:left;
+	height:100%;
+	width:30%;
+}
+#addCat input{
+	width:100%;
+}
+#addDaysSpacer{
+	/*font-size: 4vh;*/
+	height:3%;
+	
+	width:100%;
+}
+#addDays, #addNights{
+	/*font-size: 4vh;*/
+	height:10%;
+	width:100%;
+}
+#addNightsSpacer{
+	float:left;
+	/*font-size: 4vh;*/
+	height:4%;
+	width:78%
+}
+#addRVSpacer{
+	float:left;
+	/*font-size: 4vh;*/
+	height:4%;
+	width:22%;
+}
+#addFri, #addSat, #addSun{
+	float:left;
+	height:100%;
+	width:33.33%;
+}
+#addFriNight, #addSatNight{
+	float:left;
+	height:100%;
+	width:40%;
+}
+#addRVWrapper{
+	float:left;
+	height:100%;
+	width:20%;
+}
+.floatButton{
+	border:1px solid white;
+	
+
+	margin-left:20%;
+	text-align: center;
+	width:60%;
+}
+#addAmount{
+	clear:both;
+	
+
+
+	width:100%;
+}
+#addAmountMinus, #addAmountNumber, #addAmountPlus{
+	float:left;
+	height:100%;
+	margin-left: 5%;
+	width:15%;
+}
+#addAmountMinus{
+	background: red;
+	margin-left: 20%;
+}
+#addAmountPlus{
+	background: green;
+}
+#addNote{
+	border:1px solid white;
+	height:20%;
+	
+	margin-left:2%;
+	overflow-y:auto;
+	width:96%;
+}
+#addNoteText{
+	height:92%;
+	width:100%;
+}
+#addNoteText textarea{
+	height:98%;
+	text-align: left;
+	width:98%;
+}
+#addButtonWrapper{
+	height:13%;
+	
+	width:100%;
+}
+#addCancel{
+	background: red;
+	border:1px solid white;
+	box-sizing:border-box;
+	float:left;
+	height:100%;
+	width:50%;
+}
+#addSubmit{
+	background: green;
+	border:1px solid white;
+	box-sizing:border-box;
+	float:left;
+	height:100%;
+	width:50%;
+}

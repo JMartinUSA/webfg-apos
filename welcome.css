@@ -1,0 +1,102 @@
+#welcome{
+	background: black;
+	color: white;
+	
+	
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	width:100%;
+	z-index: 15;
+
+	animation-name:fadeout;
+	animation-duration:2s;
+	animation-delay:6.5s;
+}
+#firstLine{
+	position:relative;
+	
+
+	animation-name:firstLine;
+	animation-duration:2s;
+}
+#secondLine{
+	position:relative;
+	
+
+	animation-name:secondLine;
+	animation-duration:2s;
+}
+#thirdLine{
+	position:relative;
+	
+
+	animation-name:thirdLine;
+	animation-duration:2.5s;
+}
+#dot1{
+	display:inline;
+
+	animation-name:dot1;
+	animation-duration:4s;
+}
+#dot2{
+	display:inline;
+
+	animation-name:dot2;
+	animation-duration:4s;
+}
+#dot3{
+	display:inline;
+
+	animation-name:dot3;
+	animation-duration:4s;
+}
+#fourthLine{
+	position:relative;
+	
+
+	animation-name:fourthLine;
+	animation-duration:6.5s;
+}
+
+@keyframes firstLine{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+@keyframes secondLine{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+@keyframes thirdLine{
+	0%{transform:translateX(-1000px);}
+	70%{transform:translateX(70px);}
+	88%{transform:translateX(-20px);}
+	100%{transform:translateX(0px);}
+}
+@keyframes dot1{
+	0%{opacity:0;}
+	60%{opacity:0;}
+	80%{opacity:1;}
+}
+@keyframes dot2{
+	0%{opacity:0;}
+	70%{opacity:0;}
+	90%{opacity:1;}
+}
+@keyframes dot3{
+	0%{opacity:0;}
+	80%{opacity:0;}
+	100%{opacity:1;}
+}
+@keyframes fourthLine{
+	0%{transform:translateX(1000px);}
+	50%{transform:translateX(1000px);}
+	80%{transform:translateX(-70px);}
+	96%{transform:translateX(20px);}
+	100%{transform:translateX(-0px);}
+}
+@keyframes fadeout{
+	0%{opacity:1;}
+	100%{opacity:0;}
+}

@@ -1,0 +1,130 @@
+#overlay{
+	background: black;
+	color:white;
+	
+
+	position: absolute;
+	
+	z-index: 10;
+}
+#top{
+	height:25%;
+	
+	width:100%;
+}
+#top .overlayText{
+	
+}
+#ovNameF, #ovNameL{
+	float:left;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	width:45%;
+}
+#ovNameF{
+	text-align: right;
+}
+#ovNameL{
+	text-align: left;
+}
+#ovNameFText, #ovNameLText{
+	width:100%;
+}
+#top #left{
+	float:left;
+	height:100%;
+	text-align: right;
+	width:30%;
+}
+#top #center{
+	float:left;
+	height:100%;
+	text-align: center;
+	width:50%;
+}
+#top #right{
+	float:left;
+	height:100%;
+	text-align: center;
+	width:20%;
+}
+#bottom{
+	height:65%;
+	overflow: hidden;
+	width:100%;
+}
+#bottom #left{
+	float:left;
+	text-align: center;
+	width:50%;
+}
+#bottom #right{
+
+	float:right;
+	margin-right:10%;
+	width:40%;
+}
+
+.minus, .number, .plus{
+	float:left;
+
+	font-weight: bold;
+	text-align: center;
+	width:33%;
+}
+.plus{
+	background: green;
+}
+.minus{
+	background: red;
+}
+#buttons{
+	clear:both;
+	height:60%;
+	width:100%;
+}
+#buttons #ovNote{
+	border:1px solid white;
+	height:75%;
+	margin:5px;
+	
+	
+	overflow-y:auto;
+	padding:5px
+}
+#buttons #cancel{
+	background:red;
+	border:1px solid white;
+	float:left;
+	
+
+	margin-left:10%;
+	margin-top:4%;
+	text-align:center;
+	width:35%;
+}
+#buttons #submit{
+	background:green;
+	color:white;
+	border:1px solid white;
+	float:left;
+	
+	
+	margin-left:10%;
+	margin-top:4%;
+	text-align:center;
+	width:35%;
+}
+#buttons #ovNoteEdit{
+	
+	width:100%;
+}
+#buttons #ovNoteEdit input{
+	margin-left:35%;
+	width: 30%;
+}
+#ovNoteText{
+	height:95%;
+	text-align: left;
+	width:95%;
+}

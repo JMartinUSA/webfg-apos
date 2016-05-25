@@ -1,0 +1,39 @@
+#menuCont{
+	bottom:0px;
+	left:0px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	z-index: 11;
+}
+#transparentCover{
+	background: black;
+	bottom:0px;
+	left:0px;
+	opacity: .8;
+	position:absolute;
+	right:0px;
+	top:0px;
+	z-index: 10;
+}
+#menu{
+	bottom:0px;
+	left:0px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	z-index: 12;
+}
+#menuTop, #menuTopMid, #menuMiddle, #menuBottom{
+	color:rgba(255,255,255,0.7);
+	border:1px solid rgba(255,255,255,0.7);
+	border-radius: 2px;
+	position: absolute;
+	text-align: center;
+	background: rgba(0,0,0,.9);
+	z-index: 22;
+	
+	margin-left:25%;
+	
+	
+}
