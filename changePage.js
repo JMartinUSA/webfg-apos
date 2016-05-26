@@ -158,3 +158,19 @@ function POS(){
 		</div>';
 		sizePOS();
 }
+function Accounts(){
+	document.getElementById('container').innerHTML = '<link rel="stylesheet" href="accounts.css" />\
+	<div id="adminCont">\
+		<div id="userList"></div>\
+		<div id="userInput">\
+			<div id="top">\
+				Username:<input type="text" id="userUsername" />\
+				Password:<input type="text" id="userPassword" />\
+			</div>\
+			<div id="userButtons">\
+				<div id="addUserButton" onclick="addUser();">Add User</div><div id="changeUserButton" onclick="changeUser();">Change User</div>\
+			</div>\
+		</div>\
+	</div>';
+	listUser();
+}

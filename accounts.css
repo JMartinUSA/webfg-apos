@@ -1,0 +1,60 @@
+#adminCont{
+	background:black;
+	color:white;
+	height:100%;
+	width:100%;
+}
+#userList{
+	margin-top:7vh;
+	height:65%;
+	width:100%;
+}
+.listUserWrapper{
+	font-size:4vw;
+	width:80%;
+	margin-left:10%;
+}
+.listUsername{
+	float:left;
+	width:50%;
+}
+.listPassword{
+	float:left;
+	width:50%;
+}
+#userInput{
+	height:20%;
+	width:100%;
+}
+#top{
+	text-aling:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
+#top input{
+	width:30%;
+}
+#userButtons{
+	width:100%;
+	font-size:5vw;
+	height:20%;
+	text-align:center;
+}
+#addUserButton{
+	background:green;
+	float:left;
+	height:100%;
+	margin:5%;
+	margin-left:25%;
+	width:50%;
+}
+#changeUserButton{
+	background:green;
+	display:none;
+	float:left;
+	height:100%;
+	margin:5%;
+	width:40%;
+
+}

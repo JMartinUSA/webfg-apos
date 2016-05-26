@@ -11,10 +11,10 @@ body = new Hammer.Manager(body);
 
 body.add( new Hammer.Swipe);
 // This is where the magic happens
-body.on("swipeleft", function(ev) {
-    console.log('You swiped left on "body"');
-    // Messages();
-});
+// body.on("swipeleft", function(ev) {
+//     console.log('You swiped left on "body"');
+//     Messages();
+// });
 body.on("swiperight", function(ev) {
     console.log('You swiped right on "body"');
     Menu();

@@ -55,6 +55,11 @@ function menuAdmin(){
 		alert("You must be logged in to do this.");
 	}
 }
+function menuAccounts(){
+	Accounts();
+	document.getElementById('overlayCont').innerHTML = '';
+	document.getElementById('menuCont').innerHTML = '';
+}
 function menuSell(){
 	console.log('sell');
 	if(loggedIn){
