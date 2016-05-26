@@ -24,6 +24,9 @@ function calcChange(){
 		// if( document.getElementById('addSatNightBut').title == 'true'){
 		// 	perPerson+=satNightPrice;
 		// }
+		if(perPerson > 25){
+			perPerson = 25;
+		}
 		totalAmountPOS = perPerson*ammountOfPeople;
 		if( document.getElementById('addFriNightBut').title == 'true'){
 			totalAmountPOS+=friNightPrice;
