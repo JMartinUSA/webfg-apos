@@ -1,0 +1,28 @@
+#analyticsCont{
+	background: black;
+	color:white;
+	font-size:3.2vw;
+	height:100%;
+	width:100%;
+}
+#analyticsListHeader{
+	margin:5%;
+	margin-top:15%;
+	text-align:center;
+	width:90%;
+}
+.analyticsHeader,.analyticsData{
+	clear:both;
+	width:100%;
+}
+.analyticsItem{
+	margin-top:10px;
+}
+.analyticsDate, .analyticsAmount, .analyticsFriday, .analyticsSaturday, .analyticsSunday,.analyticsFriNight,.analyticsSatNight,.analyticsTotal{
+	float:left;
+	text-align:center;
+	width:15%;
+}
+.analyticsFriday,.analyticsSaturday,.analyticsSunday{
+	width:7%;
+}

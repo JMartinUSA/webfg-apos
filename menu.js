@@ -60,6 +60,11 @@ function menuAccounts(){
 	document.getElementById('overlayCont').innerHTML = '';
 	document.getElementById('menuCont').innerHTML = '';
 }
+function menuAnalytics(){
+	Analytics();
+	document.getElementById('overlayCont').innerHTML = '';
+	document.getElementById('menuCont').innerHTML = '';
+}
 function menuSell(){
 	console.log('sell');
 	if(loggedIn){

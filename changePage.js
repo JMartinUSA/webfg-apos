@@ -174,3 +174,21 @@ function Accounts(){
 	</div>';
 	listUser();
 }
+function Analytics(){
+	document.getElementById('container').innerHTML = '<link rel="stylesheet" href="analytics.css" />\
+	<div id="analyticsCont">\
+		<div id="analyticsListHeader">\
+			<div class="analyticsHeader">\
+					<div class="analyticsDate">Date</div>\
+					<div class="analyticsAmount">Tickets</div>\
+					<div class="analyticsFriday">Fri</div>\
+					<div class="analyticsSaturday">Sat</div>\
+					<div class="analyticsSunday">Sun</div>\
+					<div class="analyticsFriNight">FriNight</div>\
+					<div class="analyticsSatNight">SatNight</div>\
+					<div class="analyticsTotal">Total</div>\
+			</div>\
+		<div id="analyticsList"></div>\
+	</div>';
+	getAnalytics();
+}
