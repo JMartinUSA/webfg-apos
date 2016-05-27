@@ -48,7 +48,7 @@ function sizePOS(){
 
 function sizeOverlay(){
 	sizeID('overlay',100,100);
-	document.getElementById('overlay').style.fontSize = 6*vw+'px';
+	document.getElementById('overlay').style.fontSize = 5*vw+'px';
 	marginID('top',10);
 	for(i=0;i<document.getElementsByClassName('overlayText').length;i++){
 		document.getElementsByClassName('overlayText')[i].style.marginTop = 0.5*vh+'px';
@@ -82,7 +82,7 @@ function sizeList(){
 	sizeID('scroll',82,100);
 	positionID('scroll',10);
 	document.getElementById('scroll').style.paddingBottom = 8*vh+'px';
-	document.getElementById('scroll').style.fontSize = 4.5*vw+'px';
+	document.getElementById('scroll').style.fontSize = 3.7*vw+'px';
 }
 
 function sizeMenu(){
